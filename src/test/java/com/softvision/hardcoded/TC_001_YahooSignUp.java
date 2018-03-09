@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class TC_001_YahooSignUp  {
+public class TC_001_YahooSignUp {
 
 	WebDriver driver;
 
@@ -24,8 +24,6 @@ public class TC_001_YahooSignUp  {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 	}
-	
-	
 
 	@Test
 	public void yahooSign() {
@@ -53,8 +51,6 @@ public class TC_001_YahooSignUp  {
 		driver.findElement(By.xpath(".//*[@id='usernamereg-year']")).sendKeys("2004");
 
 		driver.findElement(By.xpath(".//*[@id='reg-submit-button']")).click();
-		
-
 
 	}
 }

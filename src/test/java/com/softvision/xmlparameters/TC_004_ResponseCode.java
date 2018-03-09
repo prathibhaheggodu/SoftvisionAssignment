@@ -19,18 +19,19 @@ import com.jayway.restassured.response.Response;
 
 public class TC_004_ResponseCode {
 
-	@Parameters({"url1","url2","url3","url4","excelpath"})
+	@Parameters({ "url1", "url2", "url3", "url4", "excelpath" })
 	@Test
-	public void responseCode(String url1,String url2,String url3,String url4,String excelpath) throws EncryptedDocumentException, InvalidFormatException, FileNotFoundException,
-			IOException, org.apache.poi.openxml4j.exceptions.InvalidFormatException
+	public void responseCode(String url1, String url2, String url3, String url4, String excelpath)
+			throws EncryptedDocumentException, InvalidFormatException, FileNotFoundException, IOException,
+			org.apache.poi.openxml4j.exceptions.InvalidFormatException
 
 	{
 		int row = 1;
 		ArrayList<String> urlList = new ArrayList<String>();
-		urlList.add(url1);    // "https://www.amazon.com/"
-		urlList.add(url2);     // "https://www.yahoo.com/"
-		urlList.add(url3);    // "https://www.google.com/"
-		urlList.add(url4);      // "https://www.ebay.com/"
+		urlList.add(url1); // "https://www.amazon.com/"
+		urlList.add(url2); // "https://www.yahoo.com/"
+		urlList.add(url3); // "https://www.google.com/"
+		urlList.add(url4); // "https://www.ebay.com/"
 
 		for (String url : urlList) {
 			Response response = RestAssured.get(url);
@@ -39,7 +40,7 @@ public class TC_004_ResponseCode {
 
 			System.out.println(respcode);
 
-		   // String excelpath= "./exceloutput/output.xlsx"
+			// String excelpath= "./exceloutput/output.xlsx"
 
 			Workbook wb = WorkbookFactory.create(new FileInputStream(excelpath));
 
