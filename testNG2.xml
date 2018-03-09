@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Softvision Project ">
+
+
+	<test name="TEST Result 02">
+
+		<classes>
+			<class name="com.softvision.hardcoded.TC_001_YahooSignUp"></class>
+			<class name="com.softvision.hardcoded.TC_002_ResponseCode"></class>
+			<class name="com.softvision.hardcoded.TC_003_YahooExtentREPORT"></class>
+
+		</classes>
+	</test>
+
+</suite>
+

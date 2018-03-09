@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Yahoo Extent Report]">
+  <test thread-count="5" name=" Yahoo ExtentREPORT(failed)">
+    <parameter name="User" value="UserName"/>
+    <parameter name="keybrowch" value="webdriver.chrome.driver"/>
+    <parameter name="value2" value="yah"/>
+    <parameter name="value1" value="Yahoo"/>
+    <parameter name="testname2" value="TitleTest2"/>
+    <parameter name="testname1" value="TitleTest1"/>
+    <parameter name="Host" value="HostName"/>
+    <parameter name="sec02" value="10"/>
+    <parameter name="sec01" value="20"/>
+    <parameter name="urlya" value="https://www.yahoo.com/"/>
+    <parameter name="hostvalue" value="Prathibha Windows10 "/>
+    <parameter name="envirvalue" value="Testing"/>
+    <parameter name="Envir" value="Environment"/>
+    <parameter name="extentreportpath" value="/ExtentReport/ExtentReport.html"/>
+    <parameter name="driverpathch" value="./driver/chromedriver.exe"/>
+    <parameter name="uservalue" value="Prathibha"/>
+    <classes>
+      <class name="com.softvision.xmlparameters.TC_003_YahooExtentREPORT">
+        <methods>
+          <include name="TitleTest2"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="setExtent"/>
+          <include name="TitleTest1"/>
+        </methods>
+      </class> <!-- com.softvision.xmlparameters.TC_003_YahooExtentREPORT -->
+    </classes>
+  </test> <!--  Yahoo ExtentREPORT(failed) -->
+</suite> <!-- Failed suite [Yahoo Extent Report] -->

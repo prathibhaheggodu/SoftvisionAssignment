@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Softvision Project Using TESTng Parameters" duration-ms="16807" started-at="2018-03-09T11:04:04Z" finished-at="2018-03-09T11:04:21Z">
+    <groups>
+    </groups>
+    <test name="TEST Result 01" duration-ms="16807" started-at="2018-03-09T11:04:04Z" finished-at="2018-03-09T11:04:21Z">
+      <class name="com.softvision.xmlparameters.TC_004_ResponseCode">
+        <test-method status="PASS" signature="responseCode(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.softvision.xmlparameters.TC_004_ResponseCode@67b467e9]" name="responseCode" duration-ms="16471" started-at="2018-03-09T11:04:04Z" finished-at="2018-03-09T11:04:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.yahoo.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://login.yahoo.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[./exceloutput/output.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseCode -->
+      </class> <!-- com.softvision.xmlparameters.TC_004_ResponseCode -->
+    </test> <!-- TEST Result 01 -->
+  </suite> <!-- Softvision Project Using TESTng Parameters -->
+</testng-results>

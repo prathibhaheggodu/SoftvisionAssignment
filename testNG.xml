@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Softvision Project Using TESTng Parameters">
+
+
+  <test name="TEST Result 01">
+		<parameter name="url1" value="https://www.amazon.com/"></parameter>
+		<parameter name="url2" value="https://www.yahoo.com/"></parameter>
+		<parameter name="url3" value="https://www.google.com/"></parameter>
+		<parameter name="url4" value="https://login.yahoo.com"></parameter>
+		<parameter name="excelpath" value="./exceloutput/output.xlsx"></parameter>
+		
+		<classes>
+		<class name="com.softvision.xmlparameters.TC_004_ResponseCode"></class>
+		
+         </classes>
+</test>
+
+</suite>
+

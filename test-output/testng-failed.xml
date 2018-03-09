@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Softvision Project ]">
+  <test thread-count="5" name="TEST Result 02(failed)">
+    <classes>
+      <class name="com.softvision.hardcoded.TC_001_YahooSignUp">
+        <methods>
+          <include name="yahooSign"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.softvision.hardcoded.TC_001_YahooSignUp -->
+      <class name="com.softvision.hardcoded.TC_003_YahooExtentREPORT">
+        <methods>
+          <include name="endReport"/>
+          <include name="setup"/>
+          <include name="setExtent"/>
+          <include name="tearDown"/>
+          <include name="TitleTest2"/>
+        </methods>
+      </class> <!-- com.softvision.hardcoded.TC_003_YahooExtentREPORT -->
+    </classes>
+  </test> <!-- TEST Result 02(failed) -->
+</suite> <!-- Failed suite [Softvision Project ] -->
